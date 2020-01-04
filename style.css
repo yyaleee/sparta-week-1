@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+
+		.background-image-forest {
+			/*뭔가 이미지를 넣어보세요*/
+			background-image: url('https://miro.medium.com/max/6912/0*C__knszvhJ6NCa11');
+			width : 300px;
+			height: 200px;
+			/*bg 이미지 사이즈를 div 사이즈에 딱 맞춰주는 게 contain*/
+			background-size: contain; 
+			background-position: : center;
+		}
+		.round {
+			border-radius: 10px
+		}
+		.font-dohyeon {
+			font-family: 'Do Hyeon', sans-serif;
+		}
+		.font-white {
+			color : white;
+		}
+		.font-bold {
+			font-weight: bold;
+		}
+		.flex {
+			display: flex;
+			flex-direction: column;
+			/*얼라인은 짧으니까 세로, 저스티파이는 기니까 가로*/
+			align-items: center;
+			justify-content: center;
+		}
+		.login-image-wrapper {
+			margin-bottom: 20px;
+		}
+		.login-image-wrapper > h1 {
+			margin : 0 0 5px 0;
+		}
+		.login-image-wrapper > div {
+			margin : 5px 0 0 0;
+		}
+		.align-center {
+			width: 500px;
+			margin: 50px auto 0 auto;
+		}

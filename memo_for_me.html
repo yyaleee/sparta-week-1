@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>나홀로 링크 메모장</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.wrap {
+			width: 900px;
+			margin: auto;
+			font-family: 'Stylish', sans-serif;
+		}
+		.font-blue {
+			color: blue;
+		}
+		.addbox {
+			width: 500px;
+			margin: 50px auto 50px auto;
+			padding: 20px 20px 20px 20px;
+			border-style: solid;
+			border-width: 2px; 
+			border-radius: 10px;
+		}
+		.flex {
+			display: flex;
+		/*	flex-direction: column;*/
+			align-items: center;
+			justify-content: center;
+		}
+		.form-size {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="jumbotron">
+			<h1 class="display-4">나홀로 링크 메모장!</h1>
+			<p class="lead">
+				"중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다"
+			</p>
+			<hr class="my-4">
+<!-- 			<p>
+				"It uses utility classes for typography and spacing to space content out within the larger container."
+			</p> -->
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">
+					포스팅박스 열기
+				</a>
+			</p>	
+		</div>
+		<div class="addbox flex">
+			<form class="form-size">
+ 				 <div class="form-group">
+				    <label for="exampleInputEmail1" id="exampleInputEmail1">아티클 URL</label>
+				    <input type="text" class="form-control">
+			  	</div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">간단 코멘트</label>
+			    <input type="text" class="form-control" id="exampleInputPassword1">
+			  </div>
+			  <button type="submit" class="btn btn-primary">기사저장</button>
+			</form>
+		</div>
+		<div class="card-columns">
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/001/2020/01/04/AKR20200103108800017_01_i_20200104100113232.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=001&aid=0011314599" class="card-title">
+						[위클리 스마트] 아이폰 '프로'·갤럭시 '울트라'?…달라진 폰 작명법
+					</a>
+					<p class="card-text">
+						"(서울=연합뉴스) 채새롬 기자 = 2018년 아이폰XS 시리즈와 아이폰XR이 출시되면서 스마트폰 유저 사이에서는 때아닌 '보급형' 논란이 일었다..."
+					</p>
+					<p class="font-blue">
+						스마트폰 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="https://imgnews.pstatic.net/image/018/2020/01/04/0004548813_001_20200104131301611.jpg?type=w647">
+				<div class="card-body">
+					<a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004548813" class="card-title">
+						[이연호의 과학 라운지](56) 나방이 가로등을 습격하는 이유는?
+					</a>
+					<p class="card-text">
+						"[이데일리 이연호 기자] 한여름 가로등 아래 나방이 떼를 지어 모여 있는 것을 본 적이 있을 것이다. 나방 뿐만 아니라 모기 등의 날벌레도 마찬가지다. 이들은 빛을 좋아하는 걸까..."
+					</p>
+					<p class="font-blue">
+						나방 기사에 대한 코멘트
+					</p>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+</body>
+</html>
